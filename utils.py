@@ -26,18 +26,6 @@ class MakeData(Dataset):
         
 
 
-# def get_data(path):
-#     x = []
-#     y = []
 
-#     for image in os.listdir(path):
-#         img = cv2.imread(path+image)
-#         i_train = img[0:256, 0:256]  #see the image
-#         i_val = img[0:256, 256:512]
-#         x.append(i_train)
-#         y.append(i_val)
-    
-#     return x, y
-    pass
 
 

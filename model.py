@@ -104,21 +104,3 @@ class Unet(nn.Module):
         x = self.decoder(x, resudials)
         return x
         
-
-    # def save(self, path):
-    #     """Save the model to the given path.
-
-    #     Args:
-    #         path (str): Location to save the model.
-    #     """
-    #     with open(path, 'wb') as f:
-    #         pickle.dump((self.L, self.Z0), f)
-    
-    # def load(self, path):
-    #     """Load the model from the given path.
-
-    #     Args:
-    #         path (str): Location to load the model.
-    #     """
-    #     with open(path, 'rb') as f:
-    #          = pickle.load(f)

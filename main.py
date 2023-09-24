@@ -1,5 +1,4 @@
 from model import Unet
-# from model_temp import UNet
 # from torchsummary import summary
 import torch
 import torch.nn as nn
